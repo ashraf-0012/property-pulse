@@ -1,0 +1,189 @@
+[
+{
+"owner": "1",
+"name": "Lekki Luxry Apartment",
+"type": "Apartment",
+"description": "Discover comfortable modern living in this beautiful two-bedroom apartment located in Lekki Phase 1, Lagos. The apartment features a spacious living area, a fully equipped kitchen, and two well-maintained bathrooms, making it suitable for families, couples, and business travelers. Residents can enjoy amenities such as Wi-Fi, free parking, air conditioning, a gym, and 24/7 security. The apartment also features a balcony or patio, a smart TV, a coffee maker, and convenient laundry facilities. Whether you are planning a short getaway, a business trip, or an extended stay in Lagos, this apartment offers a comfortable base close to the attractions, restaurants, and lifestyle destinations of Lekki.",
+"location": {
+"street": "Admiralty Way",
+"city": "Lekki Phase 1",
+"state": "Lagos",
+"zipcode": "105102"
+},
+"beds": 2,
+"baths": 2,
+"square_feet": 1500,
+"amenities": [
+"Wifi",
+"Full kitchen",
+"Washer & Dryer",
+"Free Parking",
+"Hot Tub",
+"24/7 Security",
+"Wheelchair Accessible",
+"Elevator Access",
+"Dishwasher",
+"Gym/Fitness Center",
+"Air Conditioning",
+"Balcony/Patio",
+"Smart TV",
+"Coffee Maker"
+],
+"rates": {
+"nightly": 350000,
+"weekly": 1500000,
+"monthly": 2000000
+},
+"seller_info": {
+"name": "John Doe",
+"email": "[john@gmail.com](mailto:john@gmail.com)",
+"phone": "617-555-5555"
+},
+"images": [
+"a1.jpg",
+"a2.jpg",
+"a3.jpg",
+"a4.jpg"
+],
+"is_featured": false,
+"createdAt": "2024-01-01T00:00:00.000Z",
+"updatedAt": "2024-01-01T00:00:00.000Z"
+},
+{
+"owner": "1",
+"name": "Victoria Island Waterfront",
+"type": "Apartment",
+"description": "Enjoy a comfortable stay in this inviting three-bedroom apartment located along Ahmadu Bello Way on Victoria Island, Lagos. With three bedrooms, three bathrooms, and a generous 1,800 square feet of living space, the property offers room to relax after a busy day. Guests can enjoy convenient amenities including Wi-Fi, a fully equipped kitchen, laundry facilities, free parking, air conditioning, and high-speed internet. The apartment also offers elevator access, a dishwasher, a smart TV, and outdoor grilling facilities. Its Victoria Island location makes it a convenient option for visitors exploring Lagos, professionals attending business meetings, and families seeking a spacious place to stay.",
+"location": {
+"street": "Ahmadu Bello Way",
+"city": "Victoria Island",
+"state": "Lagos",
+"zipcode": "101241"
+},
+"beds": 3,
+"baths": 3,
+"square_feet": 1800,
+"amenities": [
+"Wifi",
+"Full kitchen",
+"Washer & Dryer",
+"Free Parking",
+"Hot Tub",
+"24/7 Security",
+"Wheelchair Accessible",
+"Elevator Access",
+"Dishwasher",
+"High-Speed Internet",
+"Air Conditioning",
+"Smart TV",
+"Outdoor Grill/BBQ"
+],
+"rates": {
+"nightly": 20000,
+"weekly": 100000,
+"monthly": 400000
+},
+"seller_info": {
+"name": "Jane Smith",
+"email": "[jane@gmail.com](mailto:jane@gmail.com)",
+"phone": "212-555-5555"
+},
+"images": [
+"b1.jpg",
+"b2.jpg",
+"b3.jpg"
+],
+"is_featured": false,
+"createdAt": "2024-01-02T00:00:00.000Z",
+"updatedAt": "2024-01-02T00:00:00.000Z"
+},
+{
+"owner": "2",
+"name": "Ikeja GRA Family Home",
+"type": "Condo",
+"description": "Experience spacious and comfortable living in this four-bedroom family property situated in Ikeja GRA, Lagos. With approximately 2,500 square feet of space, four bedrooms, and four bathrooms, this property offers plenty of room for families, groups, and guests who value privacy and convenience. The property features a full kitchen, Wi-Fi, air conditioning, free parking, and laundry facilities. Guests can also enjoy amenities such as a swimming pool, a gym, a smart TV, and 24/7 security. Located in the Ikeja GRA area, this home provides a comfortable setting for an extended family visit, a business trip, or a relaxing stay in Lagos.",
+"location": {
+"street": "Oduduwa Crescent",
+"city": "Ikeja GRA",
+"state": "Lagos",
+"zipcode": "100271"
+},
+"beds": 4,
+"baths": 4,
+"square_feet": 2500,
+"amenities": [
+"Wifi",
+"Full kitchen",
+"Washer & Dryer",
+"Free Parking",
+"Hot Tub",
+"24/7 Security",
+"Wheelchair Accessible",
+"Elevator Access",
+"Dishwasher",
+"Swimming Pool",
+"Gym/Fitness Center",
+"Air Conditioning",
+"Smart TV",
+"Coffee Maker"
+],
+"rates": {
+"nightly": 150000,
+"weekly": 700000,
+"monthly": 2500000
+},
+"seller_info": {
+"name": "David Johnson",
+"email": "[david@gmail.com](mailto:david@gmail.com)",
+"phone": "213-555-5555"
+},
+"images": [
+"c1.jpg",
+"c2.jpg",
+"c3.jpg",
+"c4.jpg"
+],
+"is_featured": false,
+"createdAt": "2024-01-03T00:00:00.000Z",
+"updatedAt": "2024-01-03T00:00:00.000Z"
+},
+{
+"owner": "2",
+"name": "Ajah Affordable Duplex",
+"type": "House",
+"description": "Find a comfortable place to stay in this welcoming three-bedroom property located along Abraham Adesanya Road in Ajah, Lagos. With three bedrooms, three bathrooms, and approximately 900 square feet of space, this home provides a practical option for families, small groups, and visitors looking for accommodation in the Ajah area. The property includes useful amenities such as a fireplace, an outdoor grill, a balcony or patio, and a coffee maker. Its weekly and monthly rental options make it suitable for guests planning an extended visit, a temporary stay, or a longer period in Lagos. Enjoy a simple, relaxed environment while staying connected to the surrounding neighbourhood.",
+"location": {
+"street": "Abraham Adesanya Road",
+"city": "Ajah",
+"state": "Lagos",
+"zipcode": "101245"
+},
+"beds": 3,
+"baths": 3,
+"square_feet": 900,
+"amenities": [
+"Fireplace",
+"Outdoor Grill/BBQ",
+"Balcony/Patio",
+"Coffee Maker"
+],
+"rates": {
+"nightly": 60000,
+"weekly": 400000,
+"monthly": 1200000
+},
+"seller_info": {
+"name": "Emily Davis",
+"email": "[emily@gmail.com](mailto:emily@gmail.com)",
+"phone": "512-555-5555"
+},
+"images": [
+"d1.jpg",
+"d2.jpg",
+"d3.jpg"
+],
+"is_featured": false,
+"createdAt": "2024-01-04T00:00:00.000Z",
+"updatedAt": "2024-01-04T00:00:00.000Z"
+}
+]
