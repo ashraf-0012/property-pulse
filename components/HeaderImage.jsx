@@ -4,14 +4,14 @@ const HeaderImage = ({ property }) => {
   return (
     <section>
       <div className="container-xl m-auto">
-        <div className="grid grid-cols-1">
+        <div className="relative w-full h-[300px] md:h-[400px]">
           <Image
             src={property.images[0]}
-            alt=""
+            alt={property.name}
+            fill
+            priority
             sizes="100vw"
-            width={0}
-            height={0}
-            className="object-cover h-[400px] w-full"
+            className="object-cover"
           />
         </div>
       </div>

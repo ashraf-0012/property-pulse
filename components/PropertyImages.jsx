@@ -23,23 +23,25 @@ const PropertyImages = ({ images }) => {
     <>
       <section className="bg-blue-50 p-4">
         {images.length === 1 ? (
-          <Image
-            src={images[0]}
-            alt="Property image"
-            onClick={() => handleOpen(0)}
-            className="object-cover h-[400px] mx-auto rounded-xl cursor-pointer"
-            width={1800}
-            height={400}
-            priority
-          />
+          <div className="relative w-full max-w-5xl h-[300px] md:h-[400px] mx-auto">
+            <Image
+              src={images[0]}
+              alt="Property image"
+              onClick={() => handleOpen(0)}
+              fill
+              sizes="(max-width: 768px) 100vw, 1024px"
+              className="object-cover rounded-xl cursor-pointer"
+              priority
+            />
+          </div>
         ) : (
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {images.map((image, index) => (
               <div
                 key={index}
-                className={`${
+                className={`relative h-[250px] md:h-[400px] ${
                   images.length === 3 && index === 2
-                    ? "col-span-2"
+                    ? "md:col-span-2"
                     : "col-span-1"
                 }`}
               >
@@ -47,10 +49,10 @@ const PropertyImages = ({ images }) => {
                   src={image}
                   alt={`Property image ${index + 1}`}
                   onClick={() => handleOpen(index)}
-                  className="object-cover h-[400px] w-full rounded-xl cursor-pointer"
-                  width={1800}
-                  height={400}
-                  priority
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover rounded-xl cursor-pointer"
+                  priority={index < 2}
                 />
               </div>
             ))}
